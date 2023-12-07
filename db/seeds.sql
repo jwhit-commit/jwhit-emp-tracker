@@ -1,7 +1,7 @@
 INSERT INTO department (id, name)
 VALUES  (1, "Accounting"),
-        (3, "Marketing"),
-        (4, "Operations");
+        (2, "Marketing"),
+        (3, "Operations");
 
 INSERT INTO role (id, title, salary, department_id)
 VALUES  (1, "Accountant", 80000, 1),
@@ -17,14 +17,16 @@ VALUES  (1, "Accountant", 80000, 1),
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
 VALUES  (1, "Joe", "Bob", 1, 2),
         (2, "Beth", "Nice", 2, 3),
-        (3, "Mary", "Smith", 3, ),
         (4, "Mckinley", "Wiggins", 4, 6),
         (5, "Laney", "May", 4, 6),
         (6, "Danna", "Hardin", 5, 7),
-        (7, "Lailah", "Jackson", 6, ),
         (8, "Brennen", "Rosales", 7, 11),
         (9, "Allie", "Hensley", 7, 11),
-        (10, "Devin", "Mcneil", 7, 11),
-        (11, "Jalen", "Tanner", 8, ),
-        (12, "Kolby", "Fitzgerald", 9, );
+        (10, "Devin", "Mcneil", 7, 11);
+
+INSERT INTO employee (id, first_name, last_name, role_id)
+VALUES   (3, "Mary", "Smith", 3),
+        (7, "Lailah", "Jackson", 6),
+        (11, "Jalen", "Tanner", 8),
+        (12, "Kolby", "Fitzgerald", 9);
 
