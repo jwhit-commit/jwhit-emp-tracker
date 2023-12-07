@@ -5,8 +5,7 @@
 ## Description
 Manage your internal CRM with this employee database manager. Keep track of departments, roles, and managers, easily viewed and changed from the terminal. 
 
-[jwhit-logo-generator-preview.webm.mov](https://github.com/jwhit-commit/jwhit-logo-generator/blob/main/assets/jwhit-logo-generator-preview.webm)
-[Watch a video walkthrough](https://github.com/jwhit-commit/jwhit-logo-generator/blob/main/assets/jwhit-logo-generator-preview.webm)
+[Watch a video walkthrough](https://github.com/jwhit-commit/jwhit-emp-tracker/blob/main/assets/jwhit-emp-tracker.webm)
 
 
 ## Table of Contents
